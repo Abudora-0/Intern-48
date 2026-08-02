@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Inquisitor Society</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="scroll-progress-container"><div id="scroll-progress-bar"></div></div>
+
+    <header>
+        <nav>
+            <a class="logo" href="index.html" aria-label="Inquisitors home">
+                <img src="images/Logo.png" alt="Inquisitors">
+            </a>
+            <button id="mobile-menu-btn">Menu</button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button id="theme-toggle">Theme</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Contact Us</h1>
+        
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div class="map-placeholder">
+            <p>Google Map embed goes here.</p>
+        </div>
+    </main>
+
+    <button id="back-to-top">Top</button>
+
+    <footer>
+        <p>&copy; 2026 INQUISITOR SOCIETY. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

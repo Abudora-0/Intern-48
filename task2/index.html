@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Inquisitor Society</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="scroll-progress-container"><div id="scroll-progress-bar"></div></div>
+
+    <header>
+        <nav>
+            <a class="logo" href="index.html" aria-label="Inquisitors home">
+                <img src="images/Logo.png" alt="Inquisitors">
+            </a>
+            <button id="mobile-menu-btn">Menu</button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><button id="theme-toggle">Theme</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero container">
+        <h1>Welcome to Inquisitor Society</h1>
+        <p>Empowering students in Artificial Intelligence, Web Development, and Competitive Quizzing.</p>
+    </section>
+
+    <section class="stats-section">
+        <div>
+            <div class="stat-number" data-target="150">0</div>
+            <p>Active Members</p>
+        </div>
+        <div>
+            <div class="stat-number" data-target="25">0</div>
+            <p>Events Hosted</p>
+        </div>
+    </section>
+
+    <section class="container slider-container">
+        <h2>Testimonials</h2>
+        <div class="slide active">"Great society for learning Web Dev!" - Student A</div>
+        <div class="slide">"The AI workshops are top-notch." - Student B</div>
+        <div class="slider-controls">
+            <button id="prev-slide">Previous</button>
+            <button id="next-slide">Next</button>
+        </div>
+    </section>
+
+    <button id="back-to-top">Top</button>
+
+    <footer>
+        <p>&copy; 2026 INQUISITOR SOCIETY. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
